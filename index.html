@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+</head>
+
+<body>
+    <h1 id="title">Encuenta de satisfacion en el discord "Hello mother fucker"</h1>
+    <p id="description"> <i>Esta encuenta es para medir el nivel de satisfacion y otras metricas sobre el servidor de
+            discord</i></p>
+    <form action="https://register-demo.freecodecamp.org" id="survey-form" method="post">
+        <div class="form-grup"><label for="name" id="name-label" >Nombre</label><input required id="name"  class="name" type="text"
+                placeholder="Introduzca su nombre"></div>
+        <div class="form-grup"> <label for="Email" id="email-label">Email</label><input required id="Email" type="email"
+                placeholder="Introduzca su email"></div>
+        <div class="form-grup"><label for="edad" id="number-label">Edad(optional)</label><input type="number" id="edad"
+                min="18" max="120" placeholder="Edad"></div>
+            <div class="form-grup">    <label for="dropdown">En que canal pasa usted mas tiempo?</label>
+                <select name="optiones" id="dropdown">
+                    <option value="">Seleccione</option>
+                    <option value="1">La nivusneta &#128293; &#128293;</option>
+                    <option value="2">Haciendo algo</option>
+                    <option value="3">No estoy</option>
+                    <option value="4">Muteadera</option>
+                </select>
+            </div>
+            <div class="form-grup">
+                <label for="">Como se siente usted al entrar en el server ?</label>
+                <input class="input-radio" type="radio" name="Eleccion" value="5" name="muyBien">Muy Bien
+                <input class="input-radio" type="radio" name="Eleccion" value="4" name="bien">Bien
+                <input class="input-radio" type="radio" name="Eleccion" value="3" name="regular">Regular
+                <input class="input-radio" type="radio" name="Eleccion" value="2" name="mal">Mal
+                <input class="input-radio" type="radio" name="Eleccion" value="1" name="Solo">Solo
+            </div>
+        <div class="form-grup">
+            <label for="OpinionMejora" id="OpinionMejora">Que le gustaria que mejorara?
+            <label><input class="input-checkbox " type="checkbox" value="Eleccion1">Temas para discutir</label>
+            <label><input class="input-checkbox " type="checkbox" value="Eleccion2">Juegar mas seguido</label>
+            <label><input class="input-checkbox " type="checkbox" value="Eleccion3">Temas de programacion</label>
+            <label><input class="input-checkbox " type="checkbox" value="Eleccion4">Mejorar el trato</label>
+            <label><input class="input-checkbox " type="checkbox" value="Eleccion5">Conectarse mas seguido</label>
+            <label><input class="input-checkbox " type="checkbox" value="Eleccion6">Bot para los partidos de futbol</label>
+            <label><input class="input-checkbox " type="checkbox" value="Eleccion7">Retransmicion de torneos (Fornite)</label>
+        </label></div>
+        
+        <label for="Seugrencia" id="sugerencia" name="sugerencia">¿Algún comentario o sugerencia?
+        <textarea name="sugerencia" id="areaSugerencia" cols="50" rows="3" placeholder="Ingrese su comentario aqui..."></textarea>
+        </label>
+        <input type="submit" id="submit">
+    </form>
+</body>
+
+</html>

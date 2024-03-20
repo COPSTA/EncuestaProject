@@ -1,0 +1,103 @@
+body{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/954/700/desktop-wallpaper-fondos-de-pantalla-morados-purple-galaxy-aesthetic.jpg");
+    background-color: #313338;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 18px;
+}
+/*Titulos y descripcion*/
+h1,p{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#title{
+    font-weight: 400;
+    line-height: 1.2;
+    padding-top: 4.3rem ;
+    margin-bottom: 0.2rem;
+
+}
+
+#description{
+    margin-bottom: 1.875rem;
+}
+
+/*Formulario*/
+form{
+    margin: 0 auto;
+    padding: 2.5rem;
+    min-width: 480px;
+    max-height: 100%;
+    width: 70vh;
+  
+    background-color: rgba(27, 27, 50, 0.8);
+}
+div{
+    margin-bottom:2.4rem ;
+}
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+label{
+    display: block;
+    align-items: center;
+    margin-bottom:0.5rem;
+    
+}
+
+#name ,#Email,#edad{
+    width: 96%;
+    height: 1.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-clip:border-box ;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+#dropdown{
+    width: 100%;
+    height: 2rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-clip:border-box ;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+input, select,textarea{
+    font-size:16px ;
+
+}
+
+
+.input-radio, .input-checkbox {
+    vertical-align: middle;
+        margin: 0 0.2rem 0 0 ;
+        min-height: 1.25rem;
+        min-width: 1.25rem;
+}
+
+#OpinionMejora{
+    margin-top:30px 0px 40px 0px;
+}
+
+#areaSugerencia{
+    width: 100%;
+    height: 150px ;
+}
+
+#submit{
+    width:100%;
+    height:50px;
+    background-color: #37af65;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin-top: 20px;
+}
